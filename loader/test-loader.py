@@ -11,8 +11,7 @@ VirtualAlloc.argtypes = [
 ]
 
 VirtualAlloc.restype = ctypes.c_void_p
-#############################################################
-size = 2024
+############################################################
 
 MEM_COMMIT = 0x1000
 MEM_RESERVE = 0x2000
